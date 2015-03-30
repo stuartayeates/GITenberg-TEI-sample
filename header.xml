@@ -1,4 +1,5 @@
 <!-- most of the content is pulled from the examples at http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html -->
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oocihm.07539.7">
 <teiHeader >
  <fileDesc>
   <titleStmt>
@@ -10,7 +11,7 @@
    </p>
   </editionStmt>
   <extent>
-<!-- description of the size of the resource -->
+<!-- description of the size of the resource, i.e. the kb of images, kb of text, etc -->
   </extent>
   <publicationStmt>
 
@@ -197,3 +198,4 @@ The <profileDesc >element contains an optional creation element, followed by any
   <change notAfter="1995-01-01" who="#RG"> began data entry before New Year 1995 </change>
  </revisionDesc>
 </teiHeader>
+</TEI>
