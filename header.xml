@@ -1,0 +1,199 @@
+<!-- most of the content is pulled from the examples at http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html -->
+<teiHeader >
+ <fileDesc>
+  <titleStmt>
+   <title>The Jesuit relations and allied documents : travels and explorations of the Jesuit missionaries in New France, 1610-1791 : the original French, Latin, and Italian texts, with English translations and notes
+   </title>
+  </titleStmt>
+  <editionStmt>
+   <p><name ref="">Project GItenberg</name> reconstruction of the <name ref="">Project Gutenberg</name> Edition
+   </p>
+  </editionStmt>
+  <extent>
+<!-- description of the size of the resource -->
+  </extent>
+  <publicationStmt>
+
+ <publisher><name ref="">Project GItenberg</name></publisher>
+ <date>2015</date>
+ <availability>
+  <licence target="http://www.gutenberg.org/wiki/Gutenberg:The_Project_Gutenberg_License"/>The Project Gutenberg License</licence>
+ </availability>
+  </publicationStmt>
+  <seriesStmt>
+   <p>
+ <!-- full biographic details of the 73 volume set
+   </p>
+  </seriesStmt>
+  <notesStmt>
+   <note>
+<p>Vol. V. Quebec : 1632-1633." </p>
+<p>"The original French, Latin, and Italian texts, with English translations and notes; illustrated by portraits, maps, and facsmiles." </p>
+<p>Title from title screen. </p>
+<p>Includes bibliographical references. </p>
+<p>Volume 5 of a 73 volume set. For individual volumes in the set see CIHM nos. 07535-07607. </p>
+<p>298 p. </p>
+   </note>
+  </notesStmt>
+  <sourceDesc>
+   <p>
+<!-- information about the source from which the resource was derived -->
+   </p>
+  </sourceDesc>
+ </fileDesc>
+<encodingDesc>
+
+    projectDesc (project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected.
+    samplingDecl (sampling declaration) contains a prose description of the rationale and methods used in sampling texts in the creation of a corpus or collection.
+    editorialDecl (editorial practice declaration) provides details of editorial principles and practices applied during the encoding of a text.
+    tagsDecl (tagging declaration) provides detailed information about the tagging applied to a document.
+    styleDefDecl (style definition language declaration) specifies the name of the formal language in which style or renditional information is supplied elsewhere in the document. The specific version of the scheme may also be supplied.
+    refsDecl (references declaration) specifies how canonical references are constructed for this text.
+    classDecl (classification declarations) contains one or more taxonomies defining any classificatory codes used elsewhere in the text.
+    geoDecl (geographic coordinates declaration) documents the notation and the datum used for geographic coordinates expressed as content of the geo element elsewhere within the document.
+    schemaSpec (schema specification) generates a TEI-conformant schema and documentation for it.
+
+</encodingDesc>
+
+The <profileDesc >element contains an optional creation element, followed by any number of additional elements taken from the model.profileDescPart class. The default members of this class are the following :
+
+    abstract contains a summary or formal abstract prefixed to an existing source document by the encoder.
+    creation contains information about the creation of a text.
+    langUsage (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text.
+    textClass (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc.
+    calendarDesc (calendar description) contains a description of the calendar system used in any dating expression found in the text.
+
+</profileDesc >
+
+    revisionDesc (revision description) summarizes the revision history for a file.
+    listChange groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text.
+    change documents a change or set of changes made during the production of a source document, or during the revision of an electronic file.
+
+
+
+
+</teiHeader>
+
+
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>Common sense, a machine-readable transcript</title>
+   <author>Paine, Thomas (1737-1809)</author>
+   <respStmt>
+    <resp>compiled by</resp>
+    <name>Jon K Adams</name>
+   </respStmt>
+  </titleStmt>
+  <editionStmt>
+   <edition>
+    <date>1986</date>
+   </edition>
+  </editionStmt>
+  <publicationStmt>
+   <distributor>Oxford Text Archive.</distributor>
+   <address>
+    <addrLine>Oxford University Computing Services,</addrLine>
+    <addrLine>13 Banbury Road,</addrLine>
+    <addrLine>Oxford OX2 6RB,</addrLine>
+    <addrLine>UK</addrLine>
+   </address>
+  </publicationStmt>
+  <notesStmt>
+   <note>Brief notes on the text are in a
+       supplementary file.</note>
+  </notesStmt>
+  <sourceDesc>
+   <biblStruct>
+    <monogr>
+     <editor>Foner, Philip S.</editor>
+     <title>The collected writings of Thomas Paine</title>
+     <imprint>
+      <pubPlace>New York</pubPlace>
+      <publisher>Citadel Press</publisher>
+      <date>1945</date>
+     </imprint>
+    </monogr>
+   </biblStruct>
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+  <samplingDecl>
+   <p>Editorial notes in the Foner edition have not
+       been reproduced. </p>
+   <p>Blank lines and multiple blank spaces, including paragraph
+       indents, have not been preserved. </p>
+  </samplingDecl>
+  <editorialDecl>
+   <correction status="high"
+    method="silent">
+    <p>The following errors
+         in the Foner edition have been corrected:
+    <list>
+      <item>p. 13 l. 7 cotemporaries contemporaries </item>
+      <item>p. 28 l. 26 [comma] [period] </item>
+      <item>p. 84 l. 4 kin kind </item>
+      <item>p. 95 l. 1 stuggle struggle </item>
+      <item>p. 101 l. 4 certainy certainty </item>
+      <item>p. 167 l. 6 than that </item>
+      <item>p. 209 l. 24 publshed published </item>
+     </list>
+    </p>
+   </correction>
+   <normalization>
+    <p>No normalization beyond that performed
+         by Foner, if any. </p>
+   </normalization>
+   <quotation marks="all">
+    <p>All double quotation marks
+         rendered with ", all single quotation marks with
+         apostrophe. </p>
+   </quotation>
+   <hyphenation eol="none">
+    <p>Hyphenated words that appear at the
+         end of the line in the Foner edition have been reformed.</p>
+   </hyphenation>
+   <stdVals>
+    <p>The values of <att>when-iso</att> on the <gi>time</gi>
+         element always end in the format <val>HH:MM</val> or
+    <val>HH</val>; i.e., seconds, fractions thereof, and time
+         zone designators are not present.</p>
+   </stdVals>
+   <interpretation>
+    <p>Compound proper names are marked. </p>
+    <p>Dates are marked. </p>
+    <p>Italics are recorded without interpretation. </p>
+   </interpretation>
+  </editorialDecl>
+  <classDecl>
+   <taxonomy xml:id="lcsh">
+    <bibl>Library of Congress Subject Headings</bibl>
+   </taxonomy>
+   <taxonomy xml:id="lc">
+    <bibl>Library of Congress Classification</bibl>
+   </taxonomy>
+  </classDecl>
+ </encodingDesc>
+ <profileDesc>
+  <creation>
+   <date>1774</date>
+  </creation>
+  <langUsage>
+   <language ident="en" usage="100">English.</language>
+  </langUsage>
+  <textClass>
+   <keywords scheme="#lcsh">
+    <term>Political science</term>
+    <term>United States -- Politics and government —
+         Revolution, 1775-1783</term>
+   </keywords>
+   <classCode scheme="#lc">JC 177</classCode>
+  </textClass>
+ </profileDesc>
+ <revisionDesc>
+  <change when="1996-01-22" who="#MSM"> finished proofreading </change>
+  <change when="1995-10-30" who="#LB"> finished proofreading </change>
+  <change notBefore="1995-07-04" who="#RG"> finished data entry at end of term </change>
+  <change notAfter="1995-01-01" who="#RG"> began data entry before New Year 1995 </change>
+ </revisionDesc>
+</teiHeader>
