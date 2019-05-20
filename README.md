@@ -25,5 +25,4 @@ and tool-based projects such as
 [EpiDoc](http://epidoc.sourceforge.net/), 
 [Anthologize](http://anthologize.org/), 
 [Versioning Machine](http://v-machine.org/), 
-and many more diverse projects.
-
+and many other diverse projects.
